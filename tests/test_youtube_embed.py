@@ -9,15 +9,15 @@ import pytest
         ("Not a URL", "Not a URL"),
         (
             "https://www.youtube.com/watch?v=xyz",
-            '<lite-youtube videoid="xyz" params=""></lite-youtube>',
+            '<lite-youtube videoid="xyz" params="" style="min-width: 200px"></lite-youtube>',
         ),
         (
             "https://www.youtube.com/watch?v=xyz&start=10",
-            '<lite-youtube videoid="xyz" params="start=10"></lite-youtube>',
+            '<lite-youtube videoid="xyz" params="start=10" style="min-width: 200px"></lite-youtube>',
         ),
         (
             "https://www.youtube.com/watch?v=xyz&start=10&end=20",
-            '<lite-youtube videoid="xyz" params="start=10&end=20"></lite-youtube>',
+            '<lite-youtube videoid="xyz" params="start=10&end=20" style="min-width: 200px"></lite-youtube>',
         ),
     ),
 )

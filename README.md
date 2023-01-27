@@ -24,7 +24,7 @@ Once installed, any columns containing URLs that look like one of these:
 Will be turned into YouTube embeds like this:
 
 ```html
-<lite-youtube videoid="xyz" params="start=30"></lite-youtube>
+<lite-youtube videoid="xyz" params="start=30" style="min-width: 200px"></lite-youtube>
 ```
 These will then be rendered using [Lite YouTube Embed](https://github.com/paulirish/lite-youtube-embed), which avoids loading the full YouTube embed until someone interacts with it.
 

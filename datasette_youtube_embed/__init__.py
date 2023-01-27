@@ -39,10 +39,10 @@ def render_cell(value):
 
     extras = ""
     if extra_bits:
-        extras = "?" + "&".join(extra_bits)
+        extras = "&".join(extra_bits)
 
     return markupsafe.Markup(
-        f'<lite-youtube videoid="{video_id}" params="{extras[1:]}"></lite-youtube>'
+        f'<lite-youtube videoid="{video_id}" params="{extras}" style="min-width: 200px"></lite-youtube>'
     )
 
 

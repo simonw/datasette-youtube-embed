@@ -1,6 +1,6 @@
 [project]
 name = "datasette-youtube-embed"
-version = "0.1"
+version = "0.2"
 description = "Turn YouTube URLs into embedded players in Datasette"
 readme = "README.md"
 authors = [{name = "Simon Willison"}]

@@ -30,16 +30,7 @@ These will then be rendered using [Lite YouTube Embed](https://github.com/paulir
 
 ## Development
 
-To set up this plugin locally, first checkout the code. Then create a new virtual environment:
+To set up this plugin locally, first checkout the code. Then run the tests with `uv`:
 
     cd datasette-youtube-embed
-    python3 -m venv venv
-    source venv/bin/activate
-
-Now install the dependencies and test dependencies:
-
-    pip install -e '.[test]'
-
-To run the tests:
-
-    pytest
+    uv run pytest
